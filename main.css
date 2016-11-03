@@ -3,15 +3,21 @@ body{
 	display: block;
 }
 
+*{ 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 @media (max-width: 1200px){
 	body{
 		background: #01579b;
 	}
 }
 
-@media (max-width: 700px){
+@media screen and (max-width: 700px){
 	body{
-		background: yellow;
+		background: #0d47a1;
 	}
 }
 
@@ -117,3 +123,7 @@ body{
 	height: 24%
 	margin: 13%;
 }
+
+
+
+
